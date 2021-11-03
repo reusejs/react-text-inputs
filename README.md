@@ -9,7 +9,7 @@
 
 # React Pickers
 
-View Storybook at: https://master--6173adb291ca4f004a2e34dd.chromatic.com
+View Storybook at: https://master--61813814a34217003af04032.chromatic.com
 
 React Pickers consist of UI Components to solve use cases of "picking"! Be it a radio button, checkbox, dropdown, multi select dropdown, cards. The end goal is to pick one or more options, and most of the times we also want to preselect some options.
 
@@ -132,7 +132,7 @@ react-button is freely distributable under the terms of the [MIT license][licens
 [npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-text-inputs?minimal=true
 
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
-[view-storybook-url]: https://master--6173adb291ca4f004a2e34dd.chromatic.com
+[view-storybook-url]: https://master--61813814a34217003af04032.chromatic.com
 
 [join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
 [join-discord-url]: https://discord.gg/VUa9SHvvDb
