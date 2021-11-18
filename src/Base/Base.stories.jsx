@@ -22,7 +22,7 @@ export const ErrorInput = Template.bind({});
 ErrorInput.args = {
     label: "Email",
     placeholder: "Enter Email",
-    errorText: "Please input required email"
+    errorText: "Please input required email",
 };
 
 
@@ -41,6 +41,6 @@ export const DarkErrorInput = DarkTemplate.bind({});
 DarkErrorInput.args = {
     label: "Email",
     placeholder: "Enter Email",
-    errorText: "Please input required email"
+    errorText: ["Please input required email", "Another Error"]
 };
 

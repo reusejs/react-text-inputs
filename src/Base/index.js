@@ -17,6 +17,12 @@ export default function BaseInput({
   disabled = false,
   labelCorner = () => {},
   errorText = undefined,
+  errorTextRenderer = (text) => {
+    if (Array.isArray(text)) {
+      return text.join(", ");
+    }
+    return text;
+  },
   helperText = "",
   inputLeftIcon = null,
   inputRightIcon = null,
@@ -101,7 +107,7 @@ export default function BaseInput({
             "mt-2 text-sm text-red-600 dark:text-red-200"
           }
         >
-          {errorText}
+          {errorTextRenderer(errorText)}
         </p>
       )}
     </div>
