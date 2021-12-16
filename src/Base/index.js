@@ -78,6 +78,7 @@ export default function BaseInput({
           value={defaultValue}
           disabled={disabled}
           onChange={(e) => onChange(e.target.value)}
+          {...props}
         />
         {inputRightIcon !== null && (
           <div
